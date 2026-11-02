@@ -1,0 +1,950 @@
+{
+  "source": "https://font.et/",
+  "note": "Free catalog downloads from font.et. Commercial and shareware families were skipped. Review each family's license before commercial use.",
+  "families": [
+    {
+      "name": "Geʾez Handwriting with Rules",
+      "slug": "ge-ez-handwriting-with-rules",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_With_Rules_babe29e524.ttf"
+      ]
+    },
+    {
+      "name": "Brqie",
+      "slug": "brqie",
+      "license": "(none)",
+      "files": [
+        "/uploads/Brqie_Regular_1592f9c7b4.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Outlines",
+      "slug": "ge-ez-handwriting-outlines",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Outlines_fd14fa9e2c.ttf"
+      ]
+    },
+    {
+      "name": "Neteru",
+      "slug": "neteru",
+      "license": "(none)",
+      "files": [
+        "/uploads/Neteru_25811896a8.ttf"
+      ]
+    },
+    {
+      "name": "Adwa Sans Serif",
+      "slug": "adwa-sans-serif",
+      "license": "(none)",
+      "files": [
+        "/uploads/Adwa_Sans_Serif_Regular_921add7a49.ttf",
+        "/uploads/Adwa_Sans_Serif_Bold_4617bd3078.ttf"
+      ]
+    },
+    {
+      "name": "Habesha stencil",
+      "slug": "habesha-stencil",
+      "license": "(none)",
+      "files": [
+        "/uploads/Habesha_STENCIL_3af275f22a.ttf"
+      ]
+    },
+    {
+      "name": "GS GeezMahtemUnicode",
+      "slug": "gs-geezmahtemunicode",
+      "license": "(none)",
+      "files": [
+        "/uploads/Geez_Mahtem_b1a2e1f373.ttf"
+      ]
+    },
+    {
+      "name": "Ethiopic Addis",
+      "slug": "ethiopic-addis",
+      "license": "(none)",
+      "files": [
+        "/uploads/ADDIS_329fc6b6f8.ttf"
+      ]
+    },
+    {
+      "name": "Geez Digital",
+      "slug": "geez-digital",
+      "license": "(none)",
+      "files": [
+        "/uploads/Geez_Digital_V1_5be0497d4c.ttf"
+      ]
+    },
+    {
+      "name": "Chiret",
+      "slug": "chiret",
+      "license": "(none)",
+      "files": [
+        "/uploads/Chiret_Regular_8c0cfd756d.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Arrows Only",
+      "slug": "ge-ez-handwriting-arrows-only",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Arrows_Only_b20b063e87.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - ይገዙ ብሥራት ጎቲክ",
+      "slug": "245",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Yigezu_Bisrat_Gothic_Regular_025797a72a.ttf"
+      ]
+    },
+    {
+      "name": "Kefa-Regular",
+      "slug": "kefa-regular",
+      "license": "(none)",
+      "files": [
+        "/uploads/Kefa_7ded22bb46.ttf"
+      ]
+    },
+    {
+      "name": "Benaiah",
+      "slug": "benaiah",
+      "license": "(none)",
+      "files": [
+        "/uploads/Benaiah_536454528f.ttf"
+      ]
+    },
+    {
+      "name": "Tayitu",
+      "slug": "tayitu",
+      "license": "(none)",
+      "files": [
+        "/uploads/Tayitu_55480b237a.ttf"
+      ]
+    },
+    {
+      "name": "Shiromeda",
+      "slug": "shiromeda",
+      "license": "(none)",
+      "files": [
+        "/uploads/Shiromeda_Regular_3cc9866348.ttf",
+        "/uploads/Shiromeda_Bold_0ad34492db.ttf",
+        "/uploads/Shiromeda_Semi_Bold_4cb87a0387.ttf"
+      ]
+    },
+    {
+      "name": "Seat",
+      "slug": "seat",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Seat_Regular_c419e1add5.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - ውቂያኖስ",
+      "slug": "239",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Wookianos_Regular_82dc20e729.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Out Arr Rules",
+      "slug": "ge-ez-handwriting-out-arr-rules",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Out_Arr_Rules_a36f5b1e9f.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - ህዋእ",
+      "slug": "233",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Hiwua_Regular_6f60a00040.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting with Arrows",
+      "slug": "ge-ez-handwriting-with-arrows",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_With_Arrows_98de649a44.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Arrows Rules",
+      "slug": "ge-ez-handwriting-arrows-rules",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Arrows_Rules_e84bacdcd5.ttf"
+      ]
+    },
+    {
+      "name": "Brana",
+      "slug": "brana",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Brana_Regular_d9e287b665.ttf"
+      ]
+    },
+    {
+      "name": "Adwa",
+      "slug": "adwa",
+      "license": "(none)",
+      "files": [
+        "/uploads/Adwa_Wendie_566ee70987.ttf",
+        "/uploads/Adwa_Bold_8a63794ff6.ttf",
+        "/uploads/Adwa_Regular_1bf6c505b3.ttf"
+      ]
+    },
+    {
+      "name": "Loga",
+      "slug": "loga",
+      "license": "(none)",
+      "files": [
+        "/uploads/Loga_Regular_c3c47e8261.ttf",
+        "/uploads/Loga_Bold_816e9a7563.ttf",
+        "/uploads/Loga_Light_3d6912db68.ttf",
+        "/uploads/Loga_Medium_b653014fd3.ttf",
+        "/uploads/Loga_Thin_f4e69e37d6.ttf"
+      ]
+    },
+    {
+      "name": "SELAM",
+      "slug": "selam",
+      "license": "(none)",
+      "files": [
+        "/uploads/Selam_Regular_a59259475e.otf"
+      ]
+    },
+    {
+      "name": "Google Sans",
+      "slug": "google-sans",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Google_Sans_Variable_Font_GRAD_opsz_wght_5c71447820.ttf",
+        "/uploads/Google_Sans_Italic_Variable_Font_GRAD_opsz_wght_005ccb5278.ttf",
+        "/uploads/Google_Sans_Bold_aec0dfccc1.ttf",
+        "/uploads/Google_Sans_Bold_Italic_70cca7a388.ttf",
+        "/uploads/Google_Sans_Italic_334af302b9.ttf",
+        "/uploads/Google_Sans_Regular_b0baea055b.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - ጥንት",
+      "slug": "237",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Tint_Regular_8fce1d34f9.ttf"
+      ]
+    },
+    {
+      "name": "A0DestaUnicode_20030827",
+      "slug": "a0destaunicode-20030827",
+      "license": "(none)",
+      "files": [
+        "/uploads/A0_Desta_Unicode_20030827_3d334ce48d.ttf"
+      ]
+    },
+    {
+      "name": "A0TesfaUnicode_20030720",
+      "slug": "a0tesfaunicode-20030720",
+      "license": "(none)",
+      "files": [
+        "/uploads/A0_Tesfa_Unicode_20030720_8770e92011.ttf"
+      ]
+    },
+    {
+      "name": "Menbere",
+      "slug": "menbere",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Menbere_Variable_Font_wght_2c787a3cf0.ttf"
+      ]
+    },
+    {
+      "name": "Bela Bereka",
+      "slug": "bela-berekaa",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Bela_Bereka_6a62aa4ee7.ttf"
+      ]
+    },
+    {
+      "name": "Semayawi",
+      "slug": "semayawi",
+      "license": "(none)",
+      "files": [
+        "/uploads/Semayawi_73bc893b2d.ttf"
+      ]
+    },
+    {
+      "name": "TITUS Cyberbit Basic",
+      "slug": "titus-cyberbit-basic",
+      "license": "(none)",
+      "files": [
+        "/uploads/TITUS_Cyberbit_Basic_Regular_496d562fb6.ttf"
+      ]
+    },
+    {
+      "name": "Loga Comic",
+      "slug": "loga-comicc",
+      "license": "(none)",
+      "files": [
+        "/uploads/Loga_Comic_Regular_17223f2ad8.ttf",
+        "/uploads/Loga_Comic_Bold_da3a84d4e3.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - ዘላን",
+      "slug": "247",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Zelan_Regular_e6001392a8.ttf"
+      ]
+    },
+    {
+      "name": "Anbassa",
+      "slug": "anbassa",
+      "license": "(none)",
+      "files": [
+        "/uploads/Anbassa_dee9817e41.ttf"
+      ]
+    },
+    {
+      "name": "kiros",
+      "slug": "kiros",
+      "license": "(none)",
+      "files": [
+        "/uploads/kiros_61f90ce99a.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - የብሰ",
+      "slug": "241",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Yebse_Regular_299c8ff034.ttf"
+      ]
+    },
+    {
+      "name": "Mulat Addis",
+      "slug": "mulat-addis",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Mulat_Addis_Regular_f0752a6e04.ttf",
+        "/uploads/Mulat_Addis_Bold_00ad38b669.ttf",
+        "/uploads/Mulat_Addis_Bold_Italic_8e14a730f9.ttf",
+        "/uploads/Mulat_Addis_Italic_2dc9c5ccb8.ttf",
+        "/uploads/Mulat_Addis_Medium_67c0b57012.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Out Arrows",
+      "slug": "ge-ez-handwriting-out-arrows",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Out_Arrows_0533c9d844.ttf"
+      ]
+    },
+    {
+      "name": "Habesha_Blocks",
+      "slug": "habesha-blocks",
+      "license": "(none)",
+      "files": [
+        "/uploads/Habesha_Blocks_fba93250b1.ttf",
+        "/uploads/Habesha_Blocks_BLACK_4ed323489c.ttf",
+        "/uploads/Habesha_Blocks_OUTLINES_dea1bf62dc.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Dots",
+      "slug": "ge-ez-handwriting-dots",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Dots_8c7fb03cd6.ttf"
+      ]
+    },
+    {
+      "name": "Ethiopic LeTewahedo",
+      "slug": "ethiopic-letewahedo",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Ethiopic_Le_Tewahedo_Regular_cc4f963a87.ttf",
+        "/uploads/Ethiopic_Le_Tewahedo_Bold_d044ac1b42.ttf",
+        "/uploads/Ethiopic_Le_Tewahedo_Bold_Italic_eb4781ac38.ttf",
+        "/uploads/Ethiopic_Le_Tewahedo_Italic_c926ef410d.ttf"
+      ]
+    },
+    {
+      "name": "Shiromeda Serif",
+      "slug": "shiromeda-serif",
+      "license": "(none)",
+      "files": [
+        "/uploads/Shiromeda_Serif_Regular_8d192170e3.ttf",
+        "/uploads/Shiromeda_Serif_Bold_953cc9ae1e.ttf",
+        "/uploads/Shiromeda_Serif_Semi_Bold_6987bef481.ttf"
+      ]
+    },
+    {
+      "name": "Zemach",
+      "slug": "zemachh",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Zemach_Regular_eafc59f80a.otf"
+      ]
+    },
+    {
+      "name": "Bela Hidase Qedmo",
+      "slug": "bela-hidase-qedmo",
+      "license": "(none)",
+      "files": [
+        "/uploads/Bela_Hidase_Qedmo_Regular_b6187c0f46.ttf",
+        "/uploads/Bela_Hidase_Qedmo_Bold_a788a91d4b.ttf",
+        "/uploads/Bela_Hidase_Qedmo_Extra_Bold_fa986f6c22.ttf"
+      ]
+    },
+    {
+      "name": "A0AddisAbebaUnicode_20030827",
+      "slug": "a0addisabebaunicode-20030827",
+      "license": "(none)",
+      "files": [
+        "/uploads/A0_Addis_Abeba_Unicode_20030827_e3a95c0418.ttf"
+      ]
+    },
+    {
+      "name": "Arada",
+      "slug": "arada",
+      "license": "(none)",
+      "files": [
+        "/uploads/Arada_7d4ac08d4d.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - ይገዙ ብሥራት ጎፈር",
+      "slug": "243",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Yigezu_Bisrat_Goffer_Regular_a136e1fd13.ttf"
+      ]
+    },
+    {
+      "name": "Sabaean",
+      "slug": "sabaean",
+      "license": "(none)",
+      "files": [
+        "/uploads/sabaean_14b9535e17.ttf"
+      ]
+    },
+    {
+      "name": "Ethiopic Lessan",
+      "slug": "ethiopic-lessan",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Ethiopic_Lessan_Regular_3327b2a6dc.ttf",
+        "/uploads/Ethiopic_Lessan_Light_c46b121b01.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Dots Arr Rule",
+      "slug": "ge-ez-handwriting-dots-arr-rule",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Dots_Arr_Rules_deee6b1698.ttf"
+      ]
+    },
+    {
+      "name": "Agbalumo",
+      "slug": "agbalumo",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Agbalumo_Regular_c34065f469.ttf"
+      ]
+    },
+    {
+      "name": "Mulat Asmara",
+      "slug": "mulat-asmara",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Mulat_Asmara_Regular_8d8a6718e0.ttf"
+      ]
+    },
+    {
+      "name": "Entoto",
+      "slug": "entoto",
+      "license": "(none)",
+      "files": [
+        "/uploads/Entoto_e168b5626c.ttf"
+      ]
+    },
+    {
+      "name": "Mahtot",
+      "slug": "mahtot",
+      "license": "(none)",
+      "files": [
+        "/uploads/Mahtot_004cea113e.ttf"
+      ]
+    },
+    {
+      "name": "Meaza",
+      "slug": "meaza",
+      "license": "(none)",
+      "files": [
+        "/uploads/Meaza_2686dbf1a1.ttf"
+      ]
+    },
+    {
+      "name": "Ethiopic Abay",
+      "slug": "ethiopic-abay",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Ethiopic_Abay_Regular_4aeb0ca201.ttf",
+        "/uploads/Ethiopic_Abay_Light_a16e6d01a3.ttf"
+      ]
+    },
+    {
+      "name": "ketefa",
+      "slug": "ketefa",
+      "license": "(none)",
+      "files": [
+        "/uploads/ketefa_301e6eef76.ttf"
+      ]
+    },
+    {
+      "name": "Bela Hidase",
+      "slug": "bela-hidase",
+      "license": "(none)",
+      "files": [
+        "/uploads/Bela_Hidase_Regular_b972ce51b6.ttf",
+        "/uploads/Bela_Hidase_Bold_22213eec4c.ttf",
+        "/uploads/Bela_Hidase_Extra_Light_c03fbe075b.ttf",
+        "/uploads/Bela_Hidase_Light_8fbf918c0c.ttf",
+        "/uploads/Bela_Hidase_Extra_Bold_9020959aee.ttf"
+      ]
+    },
+    {
+      "name": "Addis-Sans",
+      "slug": "addis-sans",
+      "license": "(none)",
+      "files": [
+        "/uploads/Addis_Sans_cfc91fc708.ttf",
+        "/uploads/Addis_Sans_Italic_f20ab176d3.ttf"
+      ]
+    },
+    {
+      "name": "Nael Hiber",
+      "slug": "nael-hiber",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Nael_Hiber_Bold_ea587fa95a.ttf"
+      ]
+    },
+    {
+      "name": "Nyala",
+      "slug": "nyala",
+      "license": "(none)",
+      "files": [
+        "/uploads/Niyala_9173e18d6c.ttf"
+      ]
+    },
+    {
+      "name": "FreeSerif",
+      "slug": "freeserif",
+      "license": "GNU General Public License",
+      "files": [
+        "/uploads/Free_Serif_ea0317208c.otf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Outlines Rule",
+      "slug": "ge-ez-handwriting-outlines-rule",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Outlines_Rules_896a1b20e8.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - ፋንትዋ",
+      "slug": "231",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Fantuwua_Regular_489fa8cc42.ttf"
+      ]
+    },
+    {
+      "name": "GeezTypeNet",
+      "slug": "geeztypenet",
+      "license": "(none)",
+      "files": [
+        "/uploads/Geez_Type_Net_b5171ff135.ttf"
+      ]
+    },
+    {
+      "name": "Loga Display",
+      "slug": "loga-display",
+      "license": "(none)",
+      "files": [
+        "/uploads/Loga_Display_Regular_8f6eff7da5.ttf",
+        "/uploads/Loga_Display_Bold_c3cc4a36a1.ttf",
+        "/uploads/Loga_Display_Medium_16652a4d1e.ttf"
+      ]
+    },
+    {
+      "name": "ADIL",
+      "slug": "adil",
+      "license": "(none)",
+      "files": [
+        "/uploads/ADIL_Regula_7842cc839b.otf"
+      ]
+    },
+    {
+      "name": "Mulat Ahmed",
+      "slug": "mulat-ahmed",
+      "license": "(none)",
+      "files": [
+        "/uploads/Mulat_Ahmed_Regular_60dc9d2166.ttf",
+        "/uploads/Mulat_Ahmed_Italic_de415ce337.ttf"
+      ]
+    },
+    {
+      "name": "ዋልድባ - ጅረት",
+      "slug": "235",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Waldba_Jiret_Regular_ce8b302522.ttf"
+      ]
+    },
+    {
+      "name": "Abyssinica SIL Connected",
+      "slug": "abyssinica-sil-connected",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Abyssinica_SIL_Connected_Regular_d833277418.ttf"
+      ]
+    },
+    {
+      "name": "Abyssinica SIL",
+      "slug": "abyssinica-sil",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Abyssinica_SIL_Regular_6ca34432bd.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Dots Rules",
+      "slug": "ge-ez-handwriting-dots-rules",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Dots_Rules_763bd2f36d.ttf"
+      ]
+    },
+    {
+      "name": "Ethiopic Dire Dawa",
+      "slug": "ethiopic-dire-dawa",
+      "license": "(none)",
+      "files": [
+        "/uploads/Dire_Dawa_fbde2a1f46.ttf"
+      ]
+    },
+    {
+      "name": "Tsega Elto",
+      "slug": "tsega-elto",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Tsega_Elto_Regular_79de4a0b33.ttf",
+        "/uploads/Tsega_Elto_Light_e49b782d27.ttf",
+        "/uploads/Tsega_Elto_Bold_64579bbd82.ttf"
+      ]
+    },
+    {
+      "name": "Nael Tarik",
+      "slug": "nael-tarik",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/nael_tarik_Regular_4413070ec1.ttf",
+        "/uploads/nael_tarik_italic_d5f1f8ffac.ttf"
+      ]
+    },
+    {
+      "name": "Habesha Doxa",
+      "slug": "habeshadoxa",
+      "license": "(none)",
+      "files": [
+        "/uploads/habesha_doxa_Samuel_Minassie_4f1a5e5c6a.ttf"
+      ]
+    },
+    {
+      "name": "Addis Ababa",
+      "slug": "addis-ababa",
+      "license": "(none)",
+      "files": [
+        "/uploads/Addis_Ababa_a4a27ca5c0.ttf"
+      ]
+    },
+    {
+      "name": "Monolithic Geez",
+      "slug": "monolithic-geez",
+      "license": "(none)",
+      "files": [
+        "/uploads/MONOLITHIC_GEEZ_68ef6097d1.otf"
+      ]
+    },
+    {
+      "name": "Zemenay",
+      "slug": "zemenay",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Zemenay_Regular_Abel_Yeshewalem_c74cc019f5.ttf"
+      ]
+    },
+    {
+      "name": "Ethiopic Sadiss",
+      "slug": "ethiopic-sadiss",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Ethiopic_Sadiss_Regular_991d964db2.ttf",
+        "/uploads/Ethiopic_Sadiss_Light_9f053f0273.ttf"
+      ]
+    },
+    {
+      "name": "zamaric emegua",
+      "slug": "zamaric-emegua",
+      "license": "(none)",
+      "files": [
+        "/uploads/zamaric_24c6bd7ca3.ttf"
+      ]
+    },
+    {
+      "name": "Godana",
+      "slug": "godana",
+      "license": "(none)",
+      "files": [
+        "/uploads/Godana_Regular_e4400ce301.ttf"
+      ]
+    },
+    {
+      "name": "ETH_B_gofa",
+      "slug": "eth-b-gofa",
+      "license": "(none)",
+      "files": [
+        "/uploads/ETH_B_GOFA_5f6ac0dbc6.ttf"
+      ]
+    },
+    {
+      "name": "HH Lemd Mono",
+      "slug": "hh-lemd-mono",
+      "license": "(none)",
+      "files": [
+        "/uploads/HH_Lemd_Mono_Regular_b414c278d6.otf"
+      ]
+    },
+    {
+      "name": "Balderasu",
+      "slug": "balderasu",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Balderasu_Regular_Abel_Yeshewalem_11a1d1f3af.ttf"
+      ]
+    },
+    {
+      "name": "Mulat Abay",
+      "slug": "mulat-abay",
+      "license": "(none)",
+      "files": [
+        "/uploads/Mulat_Abay_Regular_e31524934a.ttf",
+        "/uploads/Mulat_Abay_Bold_Italic_7ca2ba7feb.ttf",
+        "/uploads/Mulat_Abay_Italic_6239461368.ttf",
+        "/uploads/Mulat_Abay_Black_9eedff1f1d.ttf",
+        "/uploads/Mulat_Abay_Black_Italic_aae9d2c2dd.ttf",
+        "/uploads/Mulat_Abay_Bold_205d3596b2.ttf",
+        "/uploads/Mulat_Abay_Medium_Italic_d43c1a9a1c.ttf",
+        "/uploads/Mulat_Abay_Thin_96487bceab.ttf",
+        "/uploads/Mulat_Abay_Thin_Italic_02b09ac277.ttf"
+      ]
+    },
+    {
+      "name": "Habesha Serif",
+      "slug": "habesha-serif",
+      "license": "(none)",
+      "files": [
+        "/uploads/Habesha_Serif_Distort_f4a16c352c.ttf",
+        "/uploads/Habesha_Serif_Distort_Italic_747d1eabb7.ttf",
+        "/uploads/Zibriqriq_4cee477983.ttf"
+      ]
+    },
+    {
+      "name": "Amhara reduced",
+      "slug": "amhara-reduced",
+      "license": "(none)",
+      "files": [
+        "/uploads/Amhara_reduced_5105c5b37c.otf"
+      ]
+    },
+    {
+      "name": "Fixedsys Excelsior",
+      "slug": "fixedsys-excelsior",
+      "license": "(none)",
+      "files": [
+        "/uploads/FSEX_302_5eb26927a6.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Manuscript Zemen",
+      "slug": "ge-ez-manuscript-zemen",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Manuscript_Zemen_COLR_4710025e15.ttf"
+      ]
+    },
+    {
+      "name": "Jegena-zamaric",
+      "slug": "jegena-zamaric",
+      "license": "(none)",
+      "files": [
+        "/uploads/Jegena_zamaric_b473094807.ttf"
+      ]
+    },
+    {
+      "name": "GF Zemen Unicode",
+      "slug": "gf-zemen-unicode",
+      "license": "(none)",
+      "files": [
+        "/uploads/gfzemenu_be9699a4e5.ttf"
+      ]
+    },
+    {
+      "name": "Mulat Awash",
+      "slug": "mulat-awash",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Mulat_Awash_Regular_7f768a3b98.ttf"
+      ]
+    },
+    {
+      "name": "Qal",
+      "slug": "qal",
+      "license": "(none)",
+      "files": [
+        "/uploads/Qal_Regular_255af25e53.ttf",
+        "/uploads/Qal_Regular_Italic_bca97a5f22.ttf",
+        "/uploads/Qal_Semi_Bold_3e5ae622d0.ttf",
+        "/uploads/Qal_Semi_Bold_Italic_dc05022644.ttf"
+      ]
+    },
+    {
+      "name": "AbnetZethion",
+      "slug": "abnetzethion",
+      "license": "(none)",
+      "files": [
+        "/uploads/Abinet_3038426dc8.ttf"
+      ]
+    },
+    {
+      "name": "Abba Garima",
+      "slug": "abba-garima",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Abba_Garima_Regular_d8040ce97a.ttf"
+      ]
+    },
+    {
+      "name": "Tera",
+      "slug": "tera",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Tera_Regular_9f94b5b03e.ttf"
+      ]
+    },
+    {
+      "name": "HABESHAPIXELS",
+      "slug": "habeshapixels",
+      "license": "(none)",
+      "files": [
+        "/uploads/HABESHAPIXELS_f031e3561b.ttf",
+        "/uploads/HABESHAPIXELS_Bold_c5cae524c4.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting",
+      "slug": "ge-ez-handwriting",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_ea6b90e5a8.ttf",
+        "/uploads/Geez_Handwriting_Bold_797edd48ee.ttf"
+      ]
+    },
+    {
+      "name": "Menelik",
+      "slug": "menelik",
+      "license": "(none)",
+      "files": [
+        "/uploads/Menelik_c32eb406e6.ttf"
+      ]
+    },
+    {
+      "name": "Geez Pixels",
+      "slug": "geez-pixels",
+      "license": "(none)",
+      "files": [
+        "/uploads/Geez_Pixels_2_8bc10f5c00.ttf"
+      ]
+    },
+    {
+      "name": "JegenaTitle-zamaric",
+      "slug": "jegenatitle-zamaric",
+      "license": "(none)",
+      "files": [
+        "/uploads/Jegena_Title_zamaric_a735bc73b0.ttf"
+      ]
+    },
+    {
+      "name": "SurGraphics",
+      "slug": "surgraphics",
+      "license": "(none)",
+      "files": [
+        "/uploads/Sur_Graphics_Regular_5752140c8e.ttf",
+        "/uploads/Sur_Graphics_Bold_bb647da03d.ttf",
+        "/uploads/Sur_Graphics_Extra_Bold_400099f08e.ttf"
+      ]
+    },
+    {
+      "name": "Mesob",
+      "slug": "mesobb",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Mesob_Regular_O_7eb0a6d47f.otf",
+        "/uploads/Mesob_Italic_O_fa21b66829.otf",
+        "/uploads/Mesob_Italic_T_a643f3f8f6.ttf",
+        "/uploads/Mesob_Regular_T_27fa091226.ttf"
+      ]
+    },
+    {
+      "name": "ahabesha'stypewriter",
+      "slug": "ahabesha-stypewriter",
+      "license": "(none)",
+      "files": [
+        "/uploads/ahabeshastypewriter_regular_86e0574036.ttf"
+      ]
+    },
+    {
+      "name": "Geʾez Handwriting Dots Arrows",
+      "slug": "ge-ez-handwriting-dots-arrows",
+      "license": "SIL Open Font License",
+      "files": [
+        "/uploads/Geez_Handwriting_Dots_Arrows_ac6a4b0a80.ttf"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "name": "Code2000",
+      "license": "Share ware"
+    },
+    {
+      "name": "Nokia Pure Headline",
+      "license": "Commercial"
+    }
+  ]
+}

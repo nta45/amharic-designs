@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="am">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ሸገር ቤት · ቡና ይፍላ። ገጹ ይከፈት።</title>
+    <meta
+      name="description"
+      content="ሸገር ቤት በፒያሳ የሚገኝ የንባብ ክፍልና የቡና ቤት ነው። ቦታ ይያዙ፣ ቡና ይምረጡ፣ መጽሐፍ ይክፈቱ።"
+    />
+    <style>
+      @font-face {
+        font-family: "Bela Hidase";
+        src: url("font-et/bela-hidase/Bela_Hidase_Extra_Light_c03fbe075b.ttf") format("truetype");
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Bela Hidase";
+        src: url("font-et/bela-hidase/Bela_Hidase_Regular_b972ce51b6.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Bela Hidase";
+        src: url("font-et/bela-hidase/Bela_Hidase_Bold_22213eec4c.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      :root {
+        --background: #f3ebe0;
+        --foreground: #221710;
+        --muted: #e7dccf;
+        --muted-foreground: #6d5848;
+        --card: #efe4d6;
+        --primary: #b44528;
+        --primary-foreground: #f7f0e6;
+        --accent: #4f5d42;
+        --accent-foreground: #f3ebe0;
+        --border: #d4c4b0;
+        --ring: #b44528;
+        --radius: 2px;
+        --font-sans: "Bela Hidase", "Noto Sans Ethiopic", "Abyssinica SIL", sans-serif;
+        --space: 8px;
+        --measure: 38em;
+        --page: 680px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--foreground);
+        font-family: var(--font-sans);
+        font-size: 1.0625rem;
+        font-weight: 400;
+        line-height: 1.65;
+      }
+
+      ::selection {
+        background: var(--primary);
+        color: var(--primary-foreground);
+      }
+
+      a {
+        color: inherit;
+        text-underline-position: from-font;
+        text-decoration-thickness: from-font;
+      }
+
+      a:hover {
+        color: var(--primary);
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--ring);
+        outline-offset: 3px;
+      }
+
+      .page {
+        width: min(100%, var(--page));
+        margin: 0 auto;
+        padding: 16px 16px 40px;
+      }
+
+      .top {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .mark {
+        flex: 0 0 40px;
+        width: 40px;
+        height: 40px;
+        display: grid;
+        place-items: center;
+        border-radius: 999px;
+        background: var(--primary);
+        color: var(--primary-foreground);
+        font-size: 1.15rem;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .brand {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .brand-name {
+        margin: 0;
+        font-size: 1.05rem;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      .brand-meta {
+        margin: 2px 0 0;
+        color: var(--muted-foreground);
+        font-size: 0.8125rem;
+        line-height: 1.4;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40px;
+        min-width: 40px;
+        padding: 0 14px;
+        border: 1px solid transparent;
+        border-radius: var(--radius);
+        background: var(--primary);
+        color: var(--primary-foreground);
+        font: inherit;
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        color: var(--primary-foreground);
+        filter: brightness(0.96);
+      }
+
+      .btn:active {
+        transform: scale(0.96);
+      }
+
+      .btn-ghost {
+        background: transparent;
+        border-color: var(--border);
+        color: var(--foreground);
+      }
+
+      .btn-ghost:hover {
+        color: var(--foreground);
+        background: var(--muted);
+        filter: none;
+      }
+
+      .hero {
+        padding: 22px 0 6px;
+      }
+
+      .hero h1 {
+        margin: 0;
+        max-width: 12em;
+        font-size: clamp(2.4rem, 9.2vw, 3.7rem);
+        font-weight: 200;
+        line-height: 1.12;
+        text-wrap: balance;
+      }
+
+      .lede {
+        margin: 16px 0 0;
+        max-width: var(--measure);
+        font-size: 1.05rem;
+        line-height: 1.7;
+        text-wrap: pretty;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 20px;
+      }
+
+      .proof {
+        margin: 14px 0 0;
+        color: var(--muted-foreground);
+        font-size: 0.875rem;
+        line-height: 1.5;
+      }
+
+      .specimen {
+        margin-top: 22px;
+        padding: 16px 16px 14px;
+        border: 1px solid var(--foreground);
+        background: var(--card);
+      }
+
+      .specimen-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .specimen-head h2 {
+        margin: 0;
+        font-size: 1.05rem;
+        font-weight: 700;
+        line-height: 1.25;
+      }
+
+      .specimen-head time {
+        color: var(--muted-foreground);
+        font-size: 0.8125rem;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+
+      .slots {
+        display: grid;
+        gap: 0;
+        margin: 0;
+        padding: 4px 0 0;
+      }
+
+      .slots div {
+        display: grid;
+        grid-template-columns: 5.2rem 1fr;
+        gap: 12px;
+        padding: 11px 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .slots div:last-child {
+        border-bottom: 0;
+        padding-bottom: 2px;
+      }
+
+      .slots dt {
+        margin: 0;
+        color: var(--primary);
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        line-height: 1.45;
+      }
+
+      .slots dd {
+        margin: 0;
+        line-height: 1.45;
+      }
+
+      .section {
+        margin-top: 28px;
+      }
+
+      .section h2 {
+        margin: 0 0 14px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 1.25;
+        text-wrap: balance;
+      }
+
+      .offer {
+        display: grid;
+        grid-template-columns: 2rem 1fr;
+        gap: 10px 14px;
+        padding: 14px 0;
+        border-top: 1px solid var(--border);
+      }
+
+      .offer:last-of-type {
+        border-bottom: 1px solid var(--border);
+      }
+
+      .offer b {
+        font-size: 0.8125rem;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        color: var(--primary);
+        line-height: 1.5;
+      }
+
+      .offer h3 {
+        margin: 0;
+        font-size: 1.05rem;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+
+      .offer p {
+        margin: 4px 0 0;
+        max-width: var(--measure);
+        color: var(--muted-foreground);
+        line-height: 1.6;
+        text-wrap: pretty;
+      }
+
+      .steps {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: step;
+      }
+
+      .steps li {
+        display: grid;
+        grid-template-columns: 2rem 1fr;
+        gap: 10px 14px;
+        padding: 12px 0;
+        border-top: 1px solid var(--border);
+        counter-increment: step;
+      }
+
+      .steps li:last-child {
+        border-bottom: 1px solid var(--border);
+      }
+
+      .steps li::before {
+        content: counter(step, decimal-leading-zero);
+        color: var(--primary);
+        font-size: 0.8125rem;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        line-height: 1.5;
+      }
+
+      .steps strong {
+        display: block;
+        font-size: 1.05rem;
+        line-height: 1.3;
+      }
+
+      .steps span {
+        display: block;
+        margin-top: 4px;
+        color: var(--muted-foreground);
+        line-height: 1.6;
+      }
+
+      .faq {
+        display: grid;
+        gap: 0;
+      }
+
+      details {
+        border-top: 1px solid var(--border);
+      }
+
+      details:last-child {
+        border-bottom: 1px solid var(--border);
+      }
+
+      summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        min-height: 44px;
+        padding: 10px 0;
+        cursor: pointer;
+        list-style: none;
+        font-weight: 700;
+        line-height: 1.35;
+        text-wrap: pretty;
+      }
+
+      summary::-webkit-details-marker {
+        display: none;
+      }
+
+      summary::after {
+        content: "+";
+        color: var(--primary);
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 1;
+      }
+
+      details[open] summary::after {
+        content: "−";
+      }
+
+      details p {
+        margin: 0 0 14px;
+        max-width: var(--measure);
+        color: var(--muted-foreground);
+        line-height: 1.6;
+        text-wrap: pretty;
+      }
+
+      form {
+        display: grid;
+        gap: 12px;
+      }
+
+      label {
+        display: grid;
+        gap: 6px;
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+
+      input,
+      select {
+        width: 100%;
+        min-height: 44px;
+        padding: 8px 10px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        background: #fffdf8;
+        color: var(--foreground);
+        font: inherit;
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+
+      .form-status {
+        margin: 0;
+        padding: 14px 16px;
+        border: 1px solid var(--accent);
+        background: color-mix(in srgb, var(--accent) 12%, var(--background));
+        line-height: 1.55;
+      }
+
+      .form-status[hidden],
+      form[hidden] {
+        display: none;
+      }
+
+      .fine {
+        margin: 8px 0 0;
+        color: var(--muted-foreground);
+        font-size: 0.8125rem;
+        line-height: 1.5;
+      }
+
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 8px 20px;
+        margin-top: 28px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border);
+        color: var(--muted-foreground);
+        font-size: 0.8125rem;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 520px) {
+        .row {
+          grid-template-columns: 1fr;
+        }
+
+        .top .btn {
+          width: 100%;
+        }
+
+        .top {
+          flex-wrap: wrap;
+        }
+
+        .slots div {
+          grid-template-columns: 1fr;
+          gap: 2px;
+        }
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .btn:active {
+          transform: scale(0.96);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .btn:active {
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="top">
+        <div class="mark" aria-hidden="true">ሸ</div>
+        <div class="brand">
+          <p class="brand-name">ሸገር ቤት</p>
+          <p class="brand-meta">ፒያሳ · አዲስ አበባ</p>
+        </div>
+        <a class="btn" href="#reserve">ቦታ ይያዙ</a>
+      </header>
+
+      <section class="hero">
+        <h1>ቡና ይፍላ። ገጹ ይከፈት።</h1>
+        <p class="lede">
+          ሸገር ቤት በፒያሳ መሃል የሚገኝ የንባብ ክፍልና የቡና ቤት ነው። የኢትዮጵያ ቡና፣ የአማርኛ መጽሐፍት፣ እና ለንግግር የሚበቃ ጸጥታ።
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#reserve">ቦታ ይያዙ</a>
+          <a class="btn btn-ghost" href="#program">የዛሬው ፕሮግራም</a>
+        </div>
+        <p class="proof">ማክሰኞ–እሁድ · 09:00–22:00 · ከሐምሌ 2016 ዓ.ም ጀምሮ ክፍት</p>
+      </section>
+
+      <aside class="specimen" id="program">
+        <div class="specimen-head">
+          <h2>የዛሬው ፕሮግራም</h2>
+          <time datetime="2026-11-01">እሁድ፣ ጥቅምት 21</time>
+        </div>
+        <dl class="slots">
+          <div>
+            <dt>10:00</dt>
+            <dd>የቡና ሥነ ሥርዓት · የሲዳማ ቡና</dd>
+          </div>
+          <div>
+            <dt>16:00</dt>
+            <dd>ሁለተኛ ሥነ ሥርዓት · የይርጋቸፌ ቡና</dd>
+          </div>
+          <div>
+            <dt>19:00</dt>
+            <dd>የግጥም ንባብ · ሰላምዊት መኮንን</dd>
+          </div>
+        </dl>
+      </aside>
+
+      <section class="section" id="offer">
+        <h2>በአንድ ጠረጴዛ ላይ</h2>
+        <article class="offer">
+          <b>01</b>
+          <div>
+            <h3>ቡና</h3>
+            <p>የሲዳማና የይርጋቸፌ ቡና በሥነ ሥርዓት ወይም በእስፕሬሶ። በቀን ሁለት ጊዜ ሥነ ሥርዓት ይደረጋል።</p>
+          </div>
+        </article>
+        <article class="offer">
+          <b>02</b>
+          <div>
+            <h3>መጽሐፍ</h3>
+            <p>የአማርኛ ልቦለድ፣ ግጥም፣ እና ታሪክ። የንባብ ክፍሉ መጽሐፍ ከቤት አይወጣም፤ ከሱቁ ግን ይገዛል።</p>
+          </div>
+        </article>
+        <article class="offer">
+          <b>03</b>
+          <div>
+            <h3>ጊዜ</h3>
+            <p>ጠዋት ጸጥታ ነው። ከስድስት በኋላ ውይይት ይፈቀዳል። ሰዓቱ የእርስዎ ነው።</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>እንዴት እንደሚያዝ</h2>
+        <ol class="steps">
+          <li>
+            <div>
+              <strong>ቀንና ሰዓት ይምረጡ</strong>
+              <span>ከታች ባለው ቅጽ ምሽትና ቅዳሜ ይያዛሉ። ጠዋት ያለ ቦታ ማስያዝ መምጣት ይቻላል።</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>ስምና ስልክ ይጻፉ</strong>
+              <span>ቦታው ለሁለት ሰዓት ይቆያል። ከመድረስ አስር ደቂቃ በፊት እንደገና እንጠራዎታለን።</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>በሰዓቱ ይምጡ</strong>
+              <span>ቡና ይምረጡ፣ መጽሐፍ ይውሰዱ፣ ይቀመጡ። የጠረጴዛው ጊዜ የእርስዎ ነው።</span>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>ጥያቄዎች</h2>
+        <div class="faq">
+          <details>
+            <summary>ቦታ ማስያዝ ግዴታ ነው?</summary>
+            <p>ጠዋት ከ09:00 እስከ 16:00 ያለ ቦታ ማስያዝ መምጣት ይቻላል። ከ16:00 በኋላ እና በቅዳሜ ቦታ ይያዙ።</p>
+          </details>
+          <details>
+            <summary>የቡና ሥነ ሥርዓት መቼ ነው?</summary>
+            <p>በየቀኑ ሁለት ጊዜ፦ 10:00 እና 16:00። ቦታው ውስን ስለሆነ ከሥነ ሥርዓቱ አንድ ሰዓት በፊት ይያዙ።</p>
+          </details>
+          <details>
+            <summary>መጽሐፍ ወደ ቤት መውሰድ ይቻላል?</summary>
+            <p>የንባብ ክፍሉ መጽሐፍት እዚህ ይቀመጣሉ። ከጎን ያለው ሱቅ ግን የአማርኛ መጽሐፍ ይሸጣል።</p>
+          </details>
+          <details>
+            <summary>ልጆች መምጣት ይችላሉ?</summary>
+            <p>እሁድ ጠዋት ከ10:00 እስከ 12:00 የልጆች ንባብ አለ። በሌላ ሰዓት ጸጥታ እንጠብቃለን።</p>
+          </details>
+          <details>
+            <summary>የት ነው?</summary>
+            <p>ፒያሳ፣ አዲስ አበባ። ከገዛ ክርስቶስ ቤተክርስቲያን አጠገብ፣ ሁለተኛው ፎቅ። በእግር ከመገናኛ አምስት ደቂቃ።</p>
+          </details>
+          <details>
+            <summary>እንዴት ይከፈላል?</summary>
+            <p>ጥሬ ገንዘብ ወይም ቴሌብር። ቦታ ማስያዙ ነፃ ነው፤ ቡናና መጽሐፍ በቦታው ይከፈላሉ።</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section" id="reserve">
+        <h2>ለምሽቱ ቦታ ይያዙ</h2>
+        <p class="lede" style="margin-top: 0">
+          ስም፣ ስልክ፣ ቀን፣ እና የሰዎች ብዛት ይጻፉ። ቦታውን በስልክ እናረጋግጣለን።
+        </p>
+        <form id="reserve-form">
+          <label>
+            ስም
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            ስልክ
+            <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required />
+          </label>
+          <div class="row">
+            <label>
+              ቀን
+              <input type="date" name="date" required />
+            </label>
+            <label>
+              የሰዎች ብዛት
+              <select name="party" required>
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </label>
+          </div>
+          <button class="btn" type="submit">ቦታ ይያዙ</button>
+          <p class="fine">ቦታ ማስያዙ ነፃ ነው። መሰረዝ እስከ ሰዓቱ ሁለት ሰዓት በፊት ይቻላል።</p>
+        </form>
+        <p class="form-status" id="reserve-success" hidden>
+          ቦታዎ ተይዟል። ከመድረስዎ በፊት በስልክ እናረጋግጣለን። በሰዓቱ እንጠብቅዎታለን።
+        </p>
+      </section>
+
+      <footer>
+        <span>ሸገር ቤት · ፒያሳ፣ አዲስ አበባ</span>
+        <span>ሆሄ፦ Bela Hidase · font.et</span>
+      </footer>
+    </div>
+    <script>
+      const form = document.getElementById("reserve-form");
+      const success = document.getElementById("reserve-success");
+      const date = form.querySelector('input[name="date"]');
+      const today = new Date();
+      date.min = today.toISOString().slice(0, 10);
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+        form.hidden = true;
+        success.hidden = false;
+        success.focus?.();
+      });
+    </script>
+  </body>
+</html>
